@@ -1,4 +1,11 @@
-package gosample
+package main
 
-// Message
-var Message string = "hello world"
+import (
+	"fmt"
+)
+
+func main() {
+	// Message
+	var message string = "hello world"
+	fmt.Println(message)
+}
